@@ -3,12 +3,12 @@ entries:
   my-music-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-07T20:04:32.845402131+05:00"
+    created: "2023-10-07T20:23:53.49963974+05:00"
     description: A Helm chart for Kubernetes
     digest: 98e6f31fad838836d7aacf87f92e16598b56389769ddb90d1bc5dfa159caa2e9
     name: my-music-app
     type: application
     urls:
-    - https://awan.github.io/helm/my-music-app/my-music-app-0.1.0.tgz
+    - https://awan.github.io/helm/charts/my-music-app/my-music-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-07T20:04:32.844784555+05:00"
+generated: "2023-10-07T20:23:53.499090366+05:00"
