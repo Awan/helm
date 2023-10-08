@@ -43,9 +43,11 @@ service:
 env:
   # If you want to set default host, set it here. Or at run time 
   # like ```
-  # helm install my-music this_chart
+  # helm install my-music this_chart --set 
+  # env.music_host=https://some_host:some_port
+  # its recommended to use some values.yaml
   # ```
-  #music_host: http://192.168.1.101:8000
+  music_host: https://whmsonic.radio.gov.pk:7002
 
 ingress:
   enabled: false
